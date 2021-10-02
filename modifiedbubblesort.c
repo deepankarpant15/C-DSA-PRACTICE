@@ -1,10 +1,10 @@
 #include <stdio.h>
 void bubble_sort(int a[], int n) 
 {
-    int i, j, tmp, flag;
+    int i =0 ,j, tmp, flag;
     for (i = 0; i < n; i++)
 	{  
-		flag =0;
+		flag =0;// using flag variable
         for (j = 0; j < n - i - 1; j++)
 		{ 
         	flag =1;
