@@ -1,7 +1,7 @@
 #include <stdio.h>
 void bubble_sort(int a[], int n) 
 {
-    int i = 0, j = 0, tmp, flag;
+    int i, j, tmp, flag;
     for (i = 0; i < n; i++)
 	{  
 		flag =0;
